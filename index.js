@@ -26,7 +26,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 // MongoDB connection
-const mongourl = "mongodb://localhost:27017/EmsDB";
+const mongourl = "mongodb+srv://tharana2023it:tharan057@backend.qp2kl.mongodb.net/EmsDB";
 mongoose
   .connect(mongourl)
   .then(() => {
